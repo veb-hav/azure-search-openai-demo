@@ -16,11 +16,11 @@ const Layout = () => {
                     <Link to="/" className={styles.headerTitleContainer}>
                         <a href="https://aka.ms/entgptsearch" target="_blank" title="Github repository link">
                             <img
-                                src="https://www.novelvista.com/resources/images/course/details/nv-logoblack.webp"
-                                alt="Github logo"
+                                src="https://www.lndsummit.org/blockchain/img/logo1.png"
+                                alt="NovelVista logo"
                                 aria-label="Link to github repository"
-                                width="20px"
-                                height="20px"
+                                width="175px"
+                                height="auto"
                             />
                         </a>
                     </Link>
