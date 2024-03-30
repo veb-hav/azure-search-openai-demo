@@ -14,7 +14,15 @@ const Layout = () => {
             <header className={styles.header} role={"banner"}>
                 <div className={styles.headerContainer}>
                     <Link to="/" className={styles.headerTitleContainer}>
-                        <h3 className={styles.headerTitle}>GPT + Enterprise data | Sample</h3>
+                        <a href="https://aka.ms/entgptsearch" target="_blank" title="Github repository link">
+                            <img
+                                src="https://www.novelvista.com/resources/images/course/details/nv-logoblack.webp"
+                                alt="Github logo"
+                                aria-label="Link to github repository"
+                                width="20px"
+                                height="20px"
+                            />
+                        </a>
                     </Link>
                     <nav>
                         <ul className={styles.headerNavList}>
